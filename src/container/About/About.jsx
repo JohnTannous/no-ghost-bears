@@ -15,7 +15,7 @@ function About() {
         <div className="image-container">
           <img src={aboutImage} alt="About Us" className="about-image" />
           <div className="overlay">
-            <div className="caption">Our team at work</div>
+            <div className="caption">Our New Location</div>
           </div>
         </div>
       </div>
