@@ -1,0 +1,43 @@
+.gallery-container {
+  background-color: black;
+  border: 1px solid #ddd;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.title h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: #fcb8d5;
+  
+}
+
+.carousel {
+  text-align: 'center';
+  max-width: '850px';
+  max-height: '500px';
+  margin: '40px auto';
+  
+}
+
+.carousel-caption-bottom {
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 4px #000000;
+    font-size: 3rem;
+    color: #fcb8d5;
+  }
+.prev {
+    color: #fcb8d5;
+    font-size: 2rem;
+    text-shadow: 2px 4px #000000;
+    
+}
+.next {
+    color: #fcb8d5;
+    font-size: 2rem;
+    text-shadow: 2px 4px #000000;
+    
+}
+

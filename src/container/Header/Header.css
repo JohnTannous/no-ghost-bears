@@ -1,0 +1,11 @@
+.header-container{
+    background-color: black;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+    
+}
+

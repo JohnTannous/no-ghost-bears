@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCB8D5;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer__social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer__icon {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .footer__info {
+    text-align: center;
+    color: black;
+  }
+  
+  .footer__name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .footer__address {
+    margin: 0;
+  }
+  
+  .footer__hours {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .copyright{
+    color: black;
+
+  }

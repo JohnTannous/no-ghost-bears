@@ -1,45 +1,51 @@
-.app__navbar {
-    width: 100%;
+.navbar {
+    width: fill;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
-
+    background: #FCB8D5;
+    position: fixed;
+    z-index: 1;
     padding: 1rem 2rem;
 }
 
-.app__navbar-logo {
+.navbar-logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.app__navbar-logo img {
+.navbar-logo img {
     width: 80px;
 }
 
-.app__navbar-links {
+.navbar-links {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: hotpink;
+    color: black;
     list-style: none;
 }
 
-.app__navbar-links li {
+.navbar-links li {
     margin: 0 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.app__navbar-links a {
+.navbar-links a {
     margin: 0 1rem;
     text-decoration: none;
-    color: pink;
+    color: black;
 }
 
-.app__navbar-links li:hover {
+.navbar-links li:hover {
     color: white;
 }
 
-  
+.nav_title {
+    font-family: 'Permanent Marker', cursive;
+};
+

@@ -1,0 +1,93 @@
+.menu-section {
+    background-color: #fcb8d5;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+  }
+  
+  .menu-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .menu-column {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 40px) / 3);
+    align-items: center;
+    
+
+  }
+  
+  .column-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+
+  }
+  
+  .menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .menu-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 5px 0;
+  }
+  
+  .item-name {
+    flex: 1;
+    margin-right: 60px;
+
+  }
+  
+  .item-price {
+    font-style: italic;
+    font-weight: bold;
+
+  }
+  
+  .menu-button {
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 50px;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .menu-button:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
